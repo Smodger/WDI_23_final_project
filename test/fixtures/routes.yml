@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  route_description: MyString
+  number_of_participants: 1
+  conditions: MyString
+  season: MyString
+  user: one
+
+two:
+  title: MyString
+  route_description: MyString
+  number_of_participants: 1
+  conditions: MyString
+  season: MyString
+  user: two
