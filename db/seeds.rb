@@ -47,43 +47,50 @@ route1= Route.create!({
 waypoint1 = Waypoint.create!({
   lat: 53.0981138,
   lng: -4.0822417,
-  route_id: route1.id
+  route_id: route1.id,
+  position: 0
   })
 
 waypoint2 = Waypoint.create!({
   lat: 53.1067628,
   lng: -3.9500927,
-  route_id: route1.id
+  route_id: route1.id,
+  position: 1
   })
 
 waypoint3 = Waypoint.create!({
   lat: 53.1047592,
   lng: -3.9780787,
-  route_id: route1.id
+  route_id: route1.id,
+  position: 2
   })
 
 waypoint4 = Waypoint.create!({
   lat: 53.1014342,
   lng: -4.0289447,
-  route_id: route1.id
+  route_id: route1.id,
+  position: 3
   })
 
 waypoint5 = Waypoint.create!({
   lat: 53.1060332,
   lng: -4.0410667,
-  route_id: route1.id
+  route_id: route1.id,
+  position: 4
   })
 
 waypoint6 = Waypoint.create!({
   lat: 53.1120332,
   lng: -4.0287167,
-  route_id: route1.id
+  route_id: route1.id,
+  position: 5
   })
 
 waypoint7 = Waypoint.create!({
   lat: 53.1231392,
   lng: -4.0218097,
-  route_id: route1.id
+  route_id: route1.id,
+  position: 6
   })
 
 route2= Route.create!({
@@ -98,47 +105,55 @@ route2= Route.create!({
 waypoint1 = Waypoint.create!({
   lat: 53.0804332,
   lng: -4.0235387,
-  route_id: route2.id
+  route_id: route2.id,
+  position: 0
   })
 
 waypoint2 = Waypoint.create!({
   lat: 53.0773842,
   lng: -4.0436977,
-  route_id: route2.id
+  route_id: route2.id,
+  position: 1
   })
 
 waypoint3 = Waypoint.create!({
   lat: 53.0768032,
   lng: -4.0553317,
-  route_id: route2.id
+  route_id: route2.id,
+  position: 2
   })
 
 waypoint4 = Waypoint.create!({
   lat: 53.0750312,
   lng: -4.0785817,
-  route_id: route2.id
+  route_id: route2.id,
+  position: 3
   })
 
 waypoint5 = Waypoint.create!({
   lat: 53.0684152,
   lng: -4.0790417,
-  route_id: route2.id
+  route_id: route2.id,
+  position: 4
   })
 
 waypoint6 = Waypoint.create!({
   lat: 53.0726839,
   lng: -4.0782631,
-  route_id: route2.id
+  route_id: route2.id,
+  position: 5
   })
 
 waypoint7 = Waypoint.create!({
   lat: 53.0769472,
   lng: -4.0438197,
-  route_id: route2.id
+  route_id: route2.id,
+  position: 6
   })
 
 waypoint8 = Waypoint.create!({
   lat: 53.0804042,
   lng: -4.0233737,
-  route_id: route2.id
+  route_id: route2.id,
+  position: 7
   })

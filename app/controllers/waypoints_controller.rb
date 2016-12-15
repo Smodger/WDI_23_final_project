@@ -46,6 +46,6 @@ class WaypointsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def waypoint_params
-      params.require(:waypoint).permit(:lat, :lng, :route_id)
+      params.require(:waypoint).permit(:lat, :lng, :route_id, :position)
     end
 end

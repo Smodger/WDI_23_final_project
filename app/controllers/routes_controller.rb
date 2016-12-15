@@ -16,6 +16,7 @@ class RoutesController < ApplicationController
   # POST /routes
   def create
     @route = Route.new(route_params)
+    @route.user_id = current_user.id
 
     if @route.save
       render json: @route, status: :created, location: @route
@@ -46,6 +47,6 @@ class RoutesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def route_params
-      params.require(:route).permit(:title, :route_description, :number_of_participants, :conditions, :season, :user_id)
+      params.permit(:title, :route_description, :number_of_participants, :conditions, :season, :user_id)
     end
 end
